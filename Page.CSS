@@ -30,7 +30,6 @@
     position: relative;
     border-radius: 30px;
   }
-
   .footer-slider .marquee {
     display: flex;
     position: absolute;
@@ -50,26 +49,28 @@
     margin-right: 0;
   }
 
-  .footer-slider .marquee .child img {
+.footer-slider .marquee .child img {
     object-fit: contain;
     width: 80%;
     height: 60px;
+   
   }
   @keyframes marquee {
-    0% {
+    from {
       transform: translateX(0%);
     }
 
-    100% {
+    to {
       transform: translateX(-100%);
-    }
   }
+}
   .h3 {
     display: inline-block;
     font-size: 20px;
     color: #fff;
     margin-top:80px;
-}
+  }
+
 .logo {
     width: 100px;
     margin-top: 25px;
